@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="edu_tvplayer_text_white">#FFFFFF</color>
+    <color name="actionbar_color">#3FBA91</color>
+</resources>

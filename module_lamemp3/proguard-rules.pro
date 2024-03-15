@@ -1,0 +1,6 @@
+-keep class lib.kalu.lamemp3.LameUtil
+-keep class tv.huan.dongle.DongleLog
+-keep class tv.huan.dongle.DongleBroadcastReceiver
+-keep class tv.huan.dongle.DongleProvider
+-keep class tv.huan.dongle.DongleActivity
+-keep class tv.huan.dongle.DongleManager

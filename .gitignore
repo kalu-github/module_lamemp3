@@ -1,0 +1,7 @@
+/.idea/
+/.gradle/
+/local.properties
+/module_lamemp3/.cxx/
+/module_lamemp3/build/
+/app/build/
+/app/.gradle/
