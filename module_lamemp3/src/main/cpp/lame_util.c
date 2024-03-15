@@ -130,6 +130,11 @@ JNICALL Java_lib_kalu_lamemp3_LameUtil_pcm2mp3(JNIEnv *env, jclass cls, jstring 
             int result = lame_encode_flush(glf, mp3_buffer, readBufferSize);
             fwrite(mp3_buffer, 1, writeSize, mp3File);
         }
+
+        if (glf != NULL) {
+            lame_close(glf);
+            glf = NULL;
+        }
 //
 //        free(buffer);
 //        free(leftBuffer);
@@ -155,5 +160,9 @@ JNICALL Java_lib_kalu_lamemp3_LameUtil_pcm2mp3(JNIEnv *env, jclass cls, jstring 
 //        free(buffer);
 //        free(leftBuffer);
 //        free(mp3_buffer);
+        if (glf != NULL) {
+            lame_close(glf);
+            glf = NULL;
+        }
     }
 }
