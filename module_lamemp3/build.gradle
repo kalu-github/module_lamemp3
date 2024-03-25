@@ -33,43 +33,12 @@ android {
             shrinkResources false
             minifyEnabled false
             consumerProguardFiles 'proguard-rules.pro'
-            buildConfigField("boolean", "DONGLE_LOG", "false")
-            buildConfigField("int", "DONGLE_LOOP_DELAY_MILLIS", "200")
-            buildConfigField("int", "DONGLE_TIMEOUT_READ", "5000")
-            buildConfigField("int", "DONGLE_TIMEOUT_CONNECT", "5000")
-            buildConfigField("String", "DONGLE_REQUEST_MP3", "\"mp3\"")
-            buildConfigField("String", "DONGLE_REQUEST_UTF8", "\"UTF-8\"")
-            buildConfigField("String", "DONGLE_REQUEST_TEXT", "\"text\"")
-            buildConfigField("String", "DONGLE_REQUEST_VOICE_DATA", "\"voiceData\"")
-            buildConfigField("String", "DONGLE_REQUEST_VOICE_FORMAT", "\"voiceFormat\"")
-            buildConfigField("String", "DONGLE_REQUEST_POST", "\"POST\"")
-            buildConfigField("String", "DONGLE_REQUEST_CONTENT_TYPE", "\"Content-Type\"")
-            buildConfigField("String", "DONGLE_REQUEST_APPLICATION_JSON", "\"application/json\"")
-            buildConfigField("String", "DONGLE_API_AUDIO_2_KEYWORDS", "\"http://123.249.20.221:8080/api/v1/speech/audio2keywords\"")
-            buildConfigField("String", "DONGLE_API_AUDIO_2_TEXT", "\"http://123.249.20.221:8080/api/v1/speech/audio2text\"")
-            buildConfigField("String", "DONGLE_API_EXTRACT_KEYWORDS", "\"http://123.249.20.221:8080/api/v1/text/extractKeywords\"")
         }
         debug {
             zipAlignEnabled false
             shrinkResources false
             minifyEnabled false
             consumerProguardFiles 'proguard-rules.pro'
-            buildConfigField("boolean", "DONGLE_LOG", "false")
-            buildConfigField("int", "DONGLE_LOOP_DELAY_MILLIS", "200")
-            buildConfigField("int", "DONGLE_TIMEOUT_READ", "5000")
-            buildConfigField("int", "DONGLE_TIMEOUT_READ", "5000")
-            buildConfigField("int", "DONGLE_TIMEOUT_CONNECT", "5000")
-            buildConfigField("String", "DONGLE_REQUEST_MP3", "\"mp3\"")
-            buildConfigField("String", "DONGLE_REQUEST_UTF8", "\"UTF-8\"")
-            buildConfigField("String", "DONGLE_REQUEST_TEXT", "\"text\"")
-            buildConfigField("String", "DONGLE_REQUEST_VOICE_DATA", "\"voiceData\"")
-            buildConfigField("String", "DONGLE_REQUEST_VOICE_FORMAT", "\"voiceFormat\"")
-            buildConfigField("String", "DONGLE_REQUEST_POST", "\"POST\"")
-            buildConfigField("String", "DONGLE_REQUEST_CONTENT_TYPE", "\"Content-Type\"")
-            buildConfigField("String", "DONGLE_REQUEST_APPLICATION_JSON", "\"application/json\"")
-            buildConfigField("String", "DONGLE_API_AUDIO_2_KEYWORDS", "\"http://123.249.20.221:8080/api/v1/speech/audio2keywords\"")
-            buildConfigField("String", "DONGLE_API_AUDIO_2_TEXT", "\"http://123.249.20.221:8080/api/v1/speech/audio2text\"")
-            buildConfigField("String", "DONGLE_API_EXTRACT_KEYWORDS", "\"http://123.249.20.221:8080/api/v1/text/extractKeywords\"")
         }
     }
 
